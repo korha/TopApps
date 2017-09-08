@@ -4,7 +4,9 @@
 TopApps::CStyledItemDelegateEx::CStyledItemDelegateEx(TopApps *const parent) : QStyledItemDelegate(parent),
     penLight(QColor(190, 190, 190)),
     penDark(QColor(84, 84, 84))
-{}
+{
+
+}
 
 //-------------------------------------------------------------------------------------------------
 void TopApps::CStyledItemDelegateEx::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
